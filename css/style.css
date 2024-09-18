@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: .4s;
+}
+
+#header {
+    background: black;
+    color: white;
+    padding: 25px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: 3s ani;
+}
+
+@keyframes ani {
+    0%{
+        transform: translateY(1000px);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    70% {
+        transform: rotateY(180deg);
+    }
+}
+
+.header h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.header-navbar a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 25px;
+}
+
+.header button {
+    color: white;
+    background: green;
+    border: 2px solid green;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.header button:hover {
+    background: transparent;
+    color: white;
+    transform: scale(1.1);
+}
+
+#hero {
+    padding: 50px 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    animation: 3s text;
+}
+
+@keyframes text{
+    0% {
+        transform: translateX(500px);
+    }
+}
+
+.hero img {
+    width: 50%;
+    animation: 3s img;
+}
+
+@keyframes img {
+    0% {
+        transform: translateX(-500px);
+    }
+}
+
+#aos {
+    padding: 0 0 50px 0;
+}
+
+.aos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.aos img {
+    width: 30%;
+    animation: 3s img;
+}
+
+@keyframes img {
+    0% {
+        transform: translateX(500px);
+    }
+    50% {
+
+    }
+    70% {
+        transform: rotateY(180deg);
+    }
+
+}
+
+.aos h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    animation: 3s text;
+}
+
+@keyframes text {
+    0% {
+        transform: translateX(-500px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
